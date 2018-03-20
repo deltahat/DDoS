@@ -5,10 +5,10 @@ use IO::Socket::SSL;
 use Getopt::Long;
 use Config;
 
-$SIG{'PIPE'} = 'IGNORE';    #Ignore broken pipe errors
+$SIG{'PIPE'} = 'IGNORE'; 
 
 print <<EOTEXT;
-Welcome to Slowloris - the low bandwidth, yet greedy and poisonous HTTP client by Laera Loris
+Welcome :)
 EOTEXT
 
 my ( $host, $port, $sendhost, $shost, $test, $version, $timeout, $connections );
